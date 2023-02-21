@@ -1,0 +1,39 @@
+name: cs109b
+
+channels:
+    - conda-forge
+
+dependencies:
+    - arviz
+    - beautifulsoup4
+    - imageio
+    - ipython
+    - jupyterlab
+    - matplotlib
+    - nltk
+    - numpy
+    - pandas
+    - pillow
+    - pip
+    - plotly
+    - python>=3.9
+    - python-graphviz
+    - pymc>=4.0
+    - requests
+    - scikit-learn
+    - scipy
+    - seaborn
+    - statsmodels
+    - tensorflow>=2.11
+    - pytorch
+    - tqdm
+    - transformers
+
+    - pip:
+        - gap-stat
+        - nbopen
+        - otter-grader
+        - tensorflow_addons
+        - tensorflow_datasets
+        - tensorflow_hub
+        - tf_keras_vis
